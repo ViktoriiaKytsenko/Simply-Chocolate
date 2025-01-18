@@ -81,21 +81,40 @@ img {
 /*#endregion common*/
 
 /*#region header */
-.header {
+.container-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: space-between;
+  gap: 138px;
 }
 .header-nav {
 }
-.header-nav-link {
+
+.logo {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+  color: #111;
 }
-.header-menu {
+.logo-part {
+  font-style: italic;
+}
+.header-nav-link {
+  display: flex;
+}
+.header-menu,
+.header-list {
+  display: none;
 }
 .header-menu-item {
 }
 .header-menu-link {
 }
-.header-list {
-}
+
 .header-list-item {
 }
 .header-list-link {
 }
+/*#endregion */
