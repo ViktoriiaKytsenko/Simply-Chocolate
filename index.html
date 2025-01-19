@@ -7,10 +7,7 @@
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100..900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!-- normalize -->
     <link
       rel="stylesheet"
@@ -28,8 +25,8 @@
       <div class="container container-header">
         <nav class="header-nav">   
           <a class="logo header-nav-link" href="./index.html"
-            ><span class="logo-part">SIMPLY</span> CHOCOLATE
-            <img
+            > <span><span class="logo-part">SIMPLY</span> CHOCOLATE</span>
+            <img class="logo-icons"
               src="./images/logo/icon-logo.svg"
               alt="Icon logo"
               width="21"
@@ -49,10 +46,13 @@
           </ul>
         </nav>
         <button class="header-open-menu" type="button">
-            <svg class="" width="28" height="28">
-              <use href="./images/header/menu-icon.svg"></use>
-            </svg>
-          </button>
+      <img
+        src="./images/logo/Icon-burger.svg"
+        alt="Button"
+        width="28"
+        height="28"
+      />
+    </button>
         <ul class="header-social-menu">
           <li class="header-list-item">
             <a
@@ -108,7 +108,7 @@
     <main>
       <!-- section Hero -->
       <section class="section section-hero">
-        <div class="container container-hero">
+        <div class="container-hero">
           <h1 class="title-hero">
             Treat yourself or a loved one to our finest ingredients for a moment
             of pure delight!
@@ -130,7 +130,7 @@
       </section>
       <!-- section Benefits -->
       <section class="section-benefits">
-        <div class="container" id="benefits">
+        <div class="container container-benefits" id="benefits">
           <h2 class="section-subtitle visually-hidden">Simply Chocolate benefits</h2>
           <ul class="benefits-list">
             <li class="benefits-item">
@@ -183,7 +183,7 @@
         </div>
       </section>
       <!-- section Ingredients -->
-      <section class="section">
+      <section class="section hidden">
         <div class="container">
           <h2 class="section-subtitle">It all adds up to one exceptional taste sensation</h2>
           <p class=" ingridients-text text">
@@ -260,7 +260,7 @@
         </div>
       </section>
       <!-- section Made -->
-      <section>
+      <section class="hidden">
         <div class="container">
           <h2>How it’s made?</h2>
           <img
@@ -304,7 +304,7 @@
         </div>
       </section>
       <!-- section Products -->
-      <section>
+      <section class="hidden">
         <div class="container">
           <h2>Our products</h2>
           <ul>
@@ -381,7 +381,7 @@
         </div>
       </section>
       <!-- section Top sellers-->
-      <section>
+      <section class="hidden">
         <div class="container">
         <h2>Top sellers</h2>
         <ul>
@@ -416,7 +416,7 @@
         </div>
       </section>
       <!-- section loved -->
-      <section>
+      <section class="hidden">
         <div class="container">
         <h2>Chocolate is loved</h2>
         <ul>
@@ -461,7 +461,7 @@
       </div>
     </main>
     <!-- section footer -->
-    <footer>
+    <footer class="hidden">
       <div class="container">
       <p>Chocolate a delicious cure for a bad day</p>
 
@@ -537,13 +537,6 @@
       </div>
     </footer>
     <!-- modal menu -->
-    <button type="button">
-      <img
-        src="./images/logo/Icon-burger.svg"
-        alt="Button"
-        width="28"
-        height="28"
-      />
-    </button>
+    
   </body>
 </html>
