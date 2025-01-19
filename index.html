@@ -28,7 +28,7 @@
       <div class="container container-header">
         <nav class="header-nav">   
           <a class="logo header-nav-link" href="./index.html"
-            ><span class="logo-part">SIMPLY </span> CHOCOLATE
+            ><span class="logo-part">SIMPLY</span> CHOCOLATE
             <img
               src="./images/logo/icon-logo.svg"
               alt="Icon logo"
@@ -48,7 +48,12 @@
             </li>
           </ul>
         </nav>
-        <ul class="header-list">
+        <button class="header-open-menu" type="button">
+            <svg class="" width="28" height="28">
+              <use href="./images/header/menu-icon.svg"></use>
+            </svg>
+          </button>
+        <ul class="header-social-menu">
           <li class="header-list-item">
             <a
               class="header-list-link"
@@ -102,18 +107,20 @@
     </header>
     <main>
       <!-- section Hero -->
-      <section class="section">
+      <section class="section section-hero">
         <div class="container container-hero">
           <h1 class="title-hero">
             Treat yourself or a loved one to our finest ingredients for a moment
             of pure delight!
           </h1>
+          <div class="button-wrapper">
           <button class="button btn-hero" type="button">Buy now</button>
-          <button class="anchor-hero" type="button">How it’s made</button>
-          <a href="#benefits"
+          <button class="btn-hero-made" type="button">How it’s made</button>
+           </div>
+           <a class="scroll-down" href="#benefits"
             >scroll down
-            <img
-              src="./images/hero/icon-scroll-down.svg"
+            <img class="hero-img"
+              src="./images/hero/scroll-icon.svg"
               alt="Icon scroll down"
               width="28"
               height="28"
@@ -122,19 +129,19 @@
         </div>
       </section>
       <!-- section Benefits -->
-      <section class="section">
+      <section class="section-benefits">
         <div class="container" id="benefits">
-          <h2 class="section-subtitle">Simply Chocolate benefits</h2>
+          <h2 class="section-subtitle visually-hidden">Simply Chocolate benefits</h2>
           <ul class="benefits-list">
             <li class="benefits-item">
-              <img
+              <img class="benefits-icon"
                 src="./images/benefits/chocolate-bar-icon.svg"
                 alt="chocolate-bar-icon"
                 width="32"
                 height="32"
               />
               <h3 class="benefits-caption">Unsurpassed taste</h3>
-              <p class="benefits-text text">
+              <p class="benefits-text">
                 Crafted with the finest quality cocoa beans and a dedication to
                 perfection, each bite is a decadent experience that simply
                 cannot be matched. Savor the richness and complexity of our
@@ -142,7 +149,7 @@
               </p>
             </li>
             <li class="benefits-item">
-              <img
+              <img class="benefits-icon"
                 src="./images/benefits/Coin-icon.svg"
                 alt="Coin-icon"
                 width="32"
@@ -158,7 +165,7 @@
               </p>
             </li>
             <li class="benefits-item">
-              <img
+              <img class="benefits-icon"
                 src="./images/benefits/spoon-icon.svg"
                 alt="spoon-icon"
                 width="32"
